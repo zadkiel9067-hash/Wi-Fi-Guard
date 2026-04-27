@@ -1,0 +1,14 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+<com.google.android.material.textfield.TextInputLayout xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/password_hint" app:passwordToggleEnabled="true">
+<com.google.android.material.textfield.TextInputEditText android:id="@+id/et_password" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPassword" android:textColor="@color/text_primary"/>
+</com.google.android.material.textfield.TextInputLayout>
+<com.wifiguard.app.ui.views.RiskGaugeView android:id="@+id/gauge" android:layout_width="match_parent" android:layout_height="180dp" android:layout_marginTop="16dp"/>
+<TextView android:id="@+id/tv_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:textSize="22sp" android:textStyle="bold" android:layout_marginTop="8dp"/>
+<com.google.android.material.progressindicator.LinearProgressIndicator android:id="@+id/progress_strength" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:max="100"/>
+<TextView android:id="@+id/tv_length" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textColor="@color/text_secondary"/>
+<TextView android:id="@+id/tv_entropy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textColor="@color/text_secondary"/>
+<TextView android:id="@+id/tv_crack" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textColor="@color/text_secondary"/>
+<LinearLayout android:id="@+id/ll_suggestions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:orientation="vertical"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,30 @@
+<resources>
+<string name="app_name">نگهبان وای‌فای</string>
+<string name="tab_scanner">اسکنر</string>
+<string name="tab_evil">شبکه‌های جعلی</string>
+<string name="tab_security">تست رمز</string>
+<string name="tab_history">تاریخچه</string>
+<string name="start_scan">شروع اسکن</string>
+<string name="stop_scan">توقف</string>
+<string name="scanning_in_progress">در حال اسکن…</string>
+<string name="scan_simulated">داده شبیه‌سازی‌شده (بدون مجوز یا بدون نتیجه)</string>
+<string name="scan_real">اسکن واقعی به پایان رسید</string>
+<string name="found_networks">%1$d شبکه یافت شد · %2$d مورد مشکوک</string>
+<string name="suspicious">مشکوک</string>
+<string name="warning">هشدار</string>
+<string name="no_evil_twins">در آخرین اسکن، شبکه مشکوکی یافت نشد.</string>
+<string name="no_history">هنوز اسکنی ذخیره نشده است.</string>
+<string name="clear_history">پاک‌کردن تاریخچه</string>
+<string name="history_summary">%1$d شبکه · %2$d مشکوک</string>
+<string name="password_hint">رمز عبور وای‌فای خود را وارد کنید</string>
+<string name="password_strength">قدرت رمز عبور</string>
+<string name="entropy_format">آنتروپی: %.1f بیت</string>
+<string name="crack_format">زمان تخمینی شکستن: %1$s</string>
+<string name="length_format">طول: %1$d</string>
+<string name="detail_bssid">آدرس MAC</string>
+<string name="detail_security">امنیت</string>
+<string name="detail_band">باند فرکانسی</string>
+<string name="detail_signal">قدرت سیگنال</string>
+<string name="detail_vendor">سازنده</string>
+<string name="close">بستن</string>
+</resources>

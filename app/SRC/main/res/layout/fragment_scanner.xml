@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/bg" android:padding="16dp">
+<com.wifiguard.app.ui.views.RadarView android:id="@+id/radar" android:layout_width="match_parent" android:layout_height="220dp"/>
+<Button android:id="@+id/btn_scan" style="@style/Widget.Material3.Button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/start_scan"/>
+<TextView android:id="@+id/tv_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+<TextView android:id="@+id/tv_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textColor="@color/text_primary" android:textStyle="bold" android:textSize="15sp"/>
+<androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="12dp" android:layout_weight="1" android:clipToPadding="false" android:paddingBottom="16dp"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+<string name="app_name">WiFi Guard</string>
+<string name="tab_scanner">Scanner</string>
+<string name="tab_evil">Evil Twins</string>
+<string name="tab_security">Password</string>
+<string name="tab_history">History</string>
+<string name="start_scan">Start Scan</string>
+<string name="stop_scan">Stop</string>
+<string name="scanning_in_progress">Scanning…</string>
+<string name="scan_simulated">Simulated data (no permission or no result)</string>
+<string name="scan_real">Real scan complete</string>
+<string name="found_networks">Found %1$d networks · %2$d suspicious</string>
+<string name="suspicious">Suspicious</string>
+<string name="warning">Warning</string>
+<string name="no_evil_twins">No suspicious networks found in latest scan.</string>
+<string name="no_history">No saved scans yet.</string>
+<string name="clear_history">Clear history</string>
+<string name="history_summary">%1$d networks · %2$d suspicious</string>
+<string name="password_hint">Type your WiFi password</string>
+<string name="password_strength">Password strength</string>
+<string name="entropy_format">Entropy: %.1f bits</string>
+<string name="crack_format">Estimated crack time: %1$s</string>
+<string name="length_format">Length: %1$d</string>
+<string name="detail_bssid">BSSID</string>
+<string name="detail_security">Security</string>
+<string name="detail_band">Band</string>
+<string name="detail_signal">Signal</string>
+<string name="detail_vendor">Vendor</string>
+<string name="close">Close</string>
+</resources>
